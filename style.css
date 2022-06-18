@@ -31,6 +31,7 @@ h2 {
     font-size: 2em;
 }
 
+/*creates the background for the menu buttons*/
 body ul {
     list-style-type: none;
     margin: 0;
@@ -39,19 +40,22 @@ body ul {
     background-color: #333333;
 }
 
+/* puts menu items horizontal instead of default vertical*/
 li {
     color: rgb(162, 175, 174);
     display: inline;
 }
 
+/*  sets the color of the menu items */
 li a {
     display: center;
-    color: rgb(162, 175, 174);
+    color: #f1e1ce;
     text-align: justify;
     padding: 16px;
     text-decoration: none;
 }
 
+/* setst the color of the menu items with a mouse hover */
 li a:hover {
     background-color: #f1e1ce;
     color: #333333
@@ -65,11 +69,13 @@ p {
     color: #333333
 }
 
+/* sets the background hover color of h1*/
 a:hover {
     background-color: #333333;
     color: #f1e1ce
 }
 
+/* aligns 'Message' with the top of the text box on the contact page */
 textarea {
     vertical-align: top;
 }
