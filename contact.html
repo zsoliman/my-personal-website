@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" async></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <h1 id="topZachThing"><a href="#home">Zach Soliman</a></h1>
+    <!--h1 heading -->
+    <h2>Software Engineering Extraordinaire</h2>
+    <ul style="border-radius: 50px;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a id="btnContact" href="#">Contact</a></li>
+    </ul>
+
+    <h2>Contact Me</h2>
+    <p>Welcome to my website! Please fill out the form to send me a message.</p>
+    <div style="background-color:rgba(160, 159, 158, 0.139)">
+        <br>
+        <form id="contactForm">
+            <label>First name: &nbsp; </label>
+            <input type="text" id="fname" name="fname"></input>
+            <br><br>
+            <label>Last name: &nbsp; </label>
+            <input type="text" id="lname" name="lname"></input>
+            <br><br>
+            <label>What do you need? &nbsp;</label>
+            <input type="radio" name="whyContactMe">Saxophone
+            </input>
+            <input type="radio" name="whyContactMe">Drums
+            </input>
+            <input type="radio" name="whyContactMe">Rock N Roll
+            </input>
+            <br><br>
+            <label>Message: &nbsp;</label>
+            <textarea id="message" name="message"></textarea>
+            <br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <br>
+    </div>
+</body>
+
+</html>

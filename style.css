@@ -1,3 +1,75 @@
 body {
-    background: blue;
+    background: #f1e1ce;
+    margin-left: 50px;
+    margin-top: 25px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#topZachThing {
+    color: #333333;
+    font-size: 4em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1e1ce;
+}
+
+a {
+    color: #333333
+}
+
+h1 a:hover {
+    color: #f1e1ce;
+
+}
+
+h2 {
+    color: #333333;
+    font-size: 2em;
+}
+
+body ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    color: rgb(162, 175, 174);
+    display: inline;
+}
+
+li a {
+    display: center;
+    color: rgb(162, 175, 174);
+    text-align: justify;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #f1e1ce;
+    color: #333333
+}
+
+h3 {
+    color: #333333
+}
+
+p {
+    color: #333333
+}
+
+a:hover {
+    background-color: #333333;
+    color: #f1e1ce
+}
+
+textarea {
+    vertical-align: top;
 }
