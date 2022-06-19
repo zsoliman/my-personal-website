@@ -7,6 +7,7 @@ body {
     text-align: center;
 }
 
+/* h1 settings */
 #topZachThing {
     color: #333333;
     font-size: 4em;
@@ -78,4 +79,18 @@ a:hover {
 /* aligns 'Message' with the top of the text box on the contact page */
 textarea {
     vertical-align: top;
+}
+
+/* menu bar rounded edges and centered */
+#menuBar {
+    border-radius: 10px;
+    margin: auto;
+    width: 75%;
+}
+
+/* shadow background for contact page div section (msg box) &centers the box */
+div {
+    background-color: rgba(163, 151, 138, 0.139);
+    width: 75%;
+    margin: auto;
 }
